@@ -1,3 +1,5 @@
+<img width="948" height="426" alt="image" src="https://github.com/user-attachments/assets/4518eea0-895f-448c-9aa7-f7ef229a04f7" />
+
 # SkyCast
 
 A clean, minimal weather app built with React. Search any city to get real-time weather data — temperature, conditions, humidity, and wind speed — powered by Open-Meteo (no API key required).
