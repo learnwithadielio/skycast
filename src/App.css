@@ -1,0 +1,58 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__header {
+  padding: 3.5rem 1rem 0.5rem;
+  text-align: center;
+}
+
+.app__title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.app__subtitle {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.app__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.75rem;
+  padding: 1.5rem 1rem 3rem;
+  width: 100%;
+  max-width: 520px;
+}
+
+.app__prompt {
+  margin: 2.5rem 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* === Responsive === */
+@media (max-width: 640px) {
+  .app__header {
+    padding-top: 2.5rem;
+  }
+
+  .app__title {
+    font-size: 1.5rem;
+  }
+
+  .app__main {
+    padding: 1.25rem 1rem 2rem;
+    gap: 1.5rem;
+  }
+}
